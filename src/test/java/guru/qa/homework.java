@@ -6,6 +6,6 @@ import org.junit.jupiter.api.Test;
 public class homework {
     @Test
     void exampleTest(){
-        Assertions.assertTrue(4 > 1);
+        Assertions.assertTrue(5 > 1);
     }
 }
