@@ -8,4 +8,8 @@ public class homework {
     void exampleTest(){
         Assertions.assertTrue(5 > 1);
     }
+    @Test
+    void exampleTest2(){
+        Assertions.assertTrue(5 < 10);
+    }
 }
