@@ -14,7 +14,7 @@ public class HomeworkLession3 {
     }
     @Test
     void simpleTest(){
-        System.out.println("### test ongoing");
+        System.out.println("### test ongoing 3");
         Assertions.assertTrue(3 > 2);
     }
     @AfterEach
@@ -24,5 +24,10 @@ public class HomeworkLession3 {
     @AfterAll
     static void TestOut(){
         System.out.println("### test over"); // вызывается после всех тестов
+    }
+    @Test
+    void simpleTest2() {
+        System.out.println("### test ongoing 2");
+        Assertions.assertTrue(3 > 2);
     }
 }

@@ -1,19 +1,22 @@
-package com.demoqa;
+package guru.qa;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
 
-public class TestBoxTests {
+public class TestClass {
     @BeforeAll
     static void setUp(){
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.holdBrowserOpen = true;
     }
+
     @Test
-    void formTest(){
-     open("/text-box");
+    void someTest() {
+        open("/text-box");
     }
 }
+
+
